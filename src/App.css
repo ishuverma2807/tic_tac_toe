@@ -1,0 +1,64 @@
+.board-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.board-container{
+  margin: 60px;
+  /* background-color:beige; */
+  
+}
+.board-row{
+  background-color:  rgb(201, 124, 77);
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+h4{
+ font-family: cursive;
+ font-style:oblique;
+ font-weight: bolder;
+ color: rgb(234, 103, 134);
+ font-size: 26px;
+ margin-left: 20%;
+ position: relative;
+ top: 20px;
+}
+.head{
+  text-align: center;
+  height: 45px;
+}
+h2{
+  font-size: 40px;
+  line-height: 45px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(150, 112, 15);
+}
+h5{
+  color: beige;
+  font-size: 40px;
+  line-height: 10px;
+}
+body{
+  background-image:url(TicTacToeGame/tictactoe.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+button{
+  margin-left: 29%;
+  height: 55px;
+  width: 15%;
+  border-radius: 10px;
+  background-color: rgb(248, 143, 14);
+  color: rgb(247, 243, 238);
+  font-size: 17px;
+  cursor: pointer;
+
+}
+ .square:hover{
+  background-color: rgb(237, 147, 91);
+}
+
+
